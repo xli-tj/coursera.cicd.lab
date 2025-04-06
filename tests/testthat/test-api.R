@@ -5,7 +5,7 @@ test_that("API greets the person", {
   # Start the API
   future::plan(future::multisession)
   future::future(
-    r.pkg.template::plumber_api(host = host, port = port)
+    coursera.cicd.lab::plumber_api(host = host, port = port)
   )
   Sys.sleep(3)
 

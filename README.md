@@ -1,35 +1,35 @@
-# r.pkg.template
+# coursera.cicd.lab
 
-![GitHub forks](https://img.shields.io/github/forks/insightsengineering/r.pkg.template?style=social)
-![GitHub Repo stars](https://img.shields.io/github/stars/insightsengineering/r.pkg.template?style=social)
+![GitHub forks](https://img.shields.io/github/forks/insightsengineering/coursera.cicd.lab?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/insightsengineering/coursera.cicd.lab?style=social)
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/insightsengineering/r.pkg.template)
-![GitHub contributors](https://img.shields.io/github/contributors/insightsengineering/r.pkg.template)
-![GitHub last commit](https://img.shields.io/github/last-commit/insightsengineering/r.pkg.template)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/insightsengineering/r.pkg.template)
-![GitHub repo size](https://img.shields.io/github/repo-size/insightsengineering/r.pkg.template)
-![GitHub language count](https://img.shields.io/github/languages/count/insightsengineering/r.pkg.template)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/insightsengineering/coursera.cicd.lab)
+![GitHub contributors](https://img.shields.io/github/contributors/insightsengineering/coursera.cicd.lab)
+![GitHub last commit](https://img.shields.io/github/last-commit/insightsengineering/coursera.cicd.lab)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/insightsengineering/coursera.cicd.lab)
+![GitHub repo size](https://img.shields.io/github/repo-size/insightsengineering/coursera.cicd.lab)
+![GitHub language count](https://img.shields.io/github/languages/count/insightsengineering/coursera.cicd.lab)
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-[![Downloads](https://img.shields.io/github/downloads/insightsengineering/r.pkg.template/latest/total)](https://tooomm.github.io/github-release-stats/?username=insightsengineering\&repository=r.pkg.template)
-[![Current Version](https://img.shields.io/github/r-package/v/insightsengineering/r.pkg.template/main?color=purple\&label=package%20version)](https://github.com/insightsengineering/r.pkg.template/tree/main)
-[![Open Issues](https://img.shields.io/github/issues-raw/insightsengineering/r.pkg.template?color=red\&label=open%20issues)](https://github.com/insightsengineering/r.pkg.template/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
+[![Downloads](https://img.shields.io/github/downloads/insightsengineering/coursera.cicd.lab/latest/total)](https://tooomm.github.io/github-release-stats/?username=insightsengineering\&repository=coursera.cicd.lab)
+[![Current Version](https://img.shields.io/github/r-package/v/insightsengineering/coursera.cicd.lab/main?color=purple\&label=package%20version)](https://github.com/insightsengineering/coursera.cicd.lab/tree/main)
+[![Open Issues](https://img.shields.io/github/issues-raw/insightsengineering/coursera.cicd.lab?color=red\&label=open%20issues)](https://github.com/insightsengineering/coursera.cicd.lab/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc)
 
-[![Audit Dependencies](https://github.com/insightsengineering/r.pkg.template/actions/workflows/audit.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/audit.yaml)
-[![BiocCheck](https://github.com/insightsengineering/r.pkg.template/actions/workflows/bioccheck.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/bioccheck.yaml)
-[![Check URLs](https://github.com/insightsengineering/r.pkg.template/actions/workflows/links.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/links.yaml)
-[![Coverage](https://github.com/insightsengineering/r.pkg.template/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/test-coverage.yaml)
-[![License report](https://github.com/insightsengineering/r.pkg.template/actions/workflows/licenses.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/licenses.yaml)
-[![Pkgdown Docs](https://github.com/insightsengineering/r.pkg.template/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/pkgdown.yaml)
-[![R CMD Check](https://github.com/insightsengineering/r.pkg.template/actions/workflows/build-check-install.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/build-check-install.yaml)
-[![R Package Validation report](https://github.com/insightsengineering/r.pkg.template/actions/workflows/validation.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/validation.yaml)
-[![Release](https://github.com/insightsengineering/r.pkg.template/actions/workflows/release.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/release.yaml)
-[![Roxygen](https://github.com/insightsengineering/r.pkg.template/actions/workflows/roxygen.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/roxygen.yaml)
-[![Spelling](https://github.com/insightsengineering/r.pkg.template/actions/workflows/spelling.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/spelling.yaml)
-[![Style](https://github.com/insightsengineering/r.pkg.template/actions/workflows/style.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/style.yaml)
-[![SuperLinter](https://github.com/insightsengineering/r.pkg.template/actions/workflows/linter.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/linter.yaml)
-[![Version bump](https://github.com/insightsengineering/r.pkg.template/actions/workflows/version-bump.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/version-bump.yaml)
-[![Version check](https://github.com/insightsengineering/r.pkg.template/actions/workflows/version.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/version.yaml)
-[![gitleaks](https://github.com/insightsengineering/r.pkg.template/actions/workflows/gitleaks.yaml/badge.svg)](https://github.com/insightsengineering/r.pkg.template/actions/workflows/gitleaks.yaml)
+[![Audit Dependencies](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/audit.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/audit.yaml)
+[![BiocCheck](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/bioccheck.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/bioccheck.yaml)
+[![Check URLs](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/links.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/links.yaml)
+[![Coverage](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/test-coverage.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/test-coverage.yaml)
+[![License report](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/licenses.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/licenses.yaml)
+[![Pkgdown Docs](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/pkgdown.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/pkgdown.yaml)
+[![R CMD Check](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/build-check-install.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/build-check-install.yaml)
+[![R Package Validation report](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/validation.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/validation.yaml)
+[![Release](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/release.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/release.yaml)
+[![Roxygen](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/roxygen.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/roxygen.yaml)
+[![Spelling](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/spelling.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/spelling.yaml)
+[![Style](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/style.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/style.yaml)
+[![SuperLinter](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/linter.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/linter.yaml)
+[![Version bump](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/version-bump.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/version-bump.yaml)
+[![Version check](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/version.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/version.yaml)
+[![gitleaks](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/gitleaks.yaml/badge.svg)](https://github.com/insightsengineering/coursera.cicd.lab/actions/workflows/gitleaks.yaml)
 
 <!-- links -->
 
@@ -52,8 +52,8 @@ You could initialize this repository in one of two ways:
 * Clone this repository:
 
   ```bash
-  git clone https://github.com/insightsengineering/r.pkg.template.git
-  cd r.pkg.template
+  git clone https://github.com/insightsengineering/coursera.cicd.lab.git
+  cd coursera.cicd.lab
   ```
 
 * Run the initializer script:
@@ -64,7 +64,7 @@ You could initialize this repository in one of two ways:
 
 #### Use GitHub's template importer
 
-* Click [here](https://github.com/insightsengineering/r.pkg.template/generate) to generate a copy of this template directly within GitHub.
+* Click [here](https://github.com/insightsengineering/coursera.cicd.lab/generate) to generate a copy of this template directly within GitHub.
 
 * Clone the repository from your account/organization.
 
@@ -177,12 +177,12 @@ Don't commit common R artifacts......................(no files to check)Skipped
 
 ### Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/insightsengineering/r.pkg.template.svg)](https://starchart.cc/insightsengineering/r.pkg.template)
+[![Stargazers over time](https://starchart.cc/insightsengineering/coursera.cicd.lab.svg)](https://starchart.cc/insightsengineering/coursera.cicd.lab)
 
 ### Stargazers
 
-[![Stargazers repo roster for @insightsengineering/r.pkg.template](https://reporoster.com/stars/insightsengineering/r.pkg.template)](https://github.com/insightsengineering/r.pkg.template/stargazers)
+[![Stargazers repo roster for @insightsengineering/coursera.cicd.lab](https://reporoster.com/stars/insightsengineering/coursera.cicd.lab)](https://github.com/insightsengineering/coursera.cicd.lab/stargazers)
 
 ### Forkers
 
-[![Forkers repo roster for @insightsengineering/r.pkg.template](https://reporoster.com/forks/insightsengineering/r.pkg.template)](https://github.com/insightsengineering/r.pkg.template/network/members)
+[![Forkers repo roster for @insightsengineering/coursera.cicd.lab](https://reporoster.com/forks/insightsengineering/coursera.cicd.lab)](https://github.com/insightsengineering/coursera.cicd.lab/network/members)

@@ -97,7 +97,7 @@ on:
         type: string
         default: ""
     secrets:
-      REPO_GITHUB_TOKEN:
+      GITHUB_TOKEN:
         description: |
           Github token with read access to repositories, required
           for staged.dependencies installation
@@ -127,12 +127,12 @@ jobs:
       - name: Setup token 🔑
         id: github-token
         run: |
-          if [ "${{ secrets.REPO_GITHUB_TOKEN }}" == "" ]; then
-            echo "REPO_GITHUB_TOKEN is empty. Substituting it with GITHUB_TOKEN."
+          if [ "${{ secrets.GITHUB_TOKEN }}" == "" ]; then
+            echo "GITHUB_TOKEN is empty. Substituting it with GITHUB_TOKEN."
             echo "token=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_OUTPUT
           else
-            echo "Using REPO_GITHUB_TOKEN."
-            echo "token=${{ secrets.REPO_GITHUB_TOKEN }}" >> $GITHUB_OUTPUT
+            echo "Using GITHUB_TOKEN."
+            echo "token=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_OUTPUT
           fi
         shell: bash
 
@@ -233,7 +233,7 @@ jobs:
           inputs.deps-installation-method == 'staged-dependencies'
         uses: insightsengineering/staged-dependencies-action@v2
         env:
-          GITHUB_PAT: ${{ secrets.REPO_GITHUB_TOKEN }}
+          GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
         with:
           path: ${{ github.event.repository.name }}/${{ inputs.package-subdirectory }}
           enable-check: ${{ inputs.enable-staged-dependencies-check }}
@@ -427,12 +427,12 @@ jobs:
       - name: Setup token 🔑
         id: github-token
         run: |
-          if [ "${{ secrets.REPO_GITHUB_TOKEN }}" == "" ]; then
-            echo "REPO_GITHUB_TOKEN is empty. Substituting it with GITHUB_TOKEN."
+          if [ "${{ secrets.GITHUB_TOKEN }}" == "" ]; then
+            echo "GITHUB_TOKEN is empty. Substituting it with GITHUB_TOKEN."
             echo "token=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_OUTPUT
           else
-            echo "Using REPO_GITHUB_TOKEN."
-            echo "token=${{ secrets.REPO_GITHUB_TOKEN }}" >> $GITHUB_OUTPUT
+            echo "Using GITHUB_TOKEN."
+            echo "token=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_OUTPUT
           fi
         shell: bash
 
